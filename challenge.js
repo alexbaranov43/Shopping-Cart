@@ -32,7 +32,7 @@ function bounceX() {
             backDrop.style.height = '100%';
             backDrop.style.width = '100%';
             backDrop.style.position = 'fixed';
-            backDrop.style.top = '10px';
+            backDrop.style.top = '0';
             backDrop.style.backgroundColor = 'rgba(0,0,0, 0.85)';
 
             //sizing of the overlay
@@ -45,7 +45,7 @@ function bounceX() {
             //styling of overlay contents
             const cartDivs = shoppingCart.childNodes
             cartDivs.forEach(content => {
-                content.style.display = 'inline-block';
+                content.style.display = 'block';
                 content.style.padding = '3%'
             })
         }
@@ -94,7 +94,6 @@ function bounceX() {
     }
 };
 bounceX()
-
 
 
 
