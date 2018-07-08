@@ -38,7 +38,7 @@ function bounceX() {
             //sizing of the overlay
             shoppingCart.style.backgroundColor = 'white';
             shoppingCart.style.margin = '10% auto';
-            shoppingCart.style.width = '55%';
+            shoppingCart.style.width = '45%';
             shoppingCart.style.textAlign = 'center';
             shoppingCart.style.fontSize = '18px';
 
