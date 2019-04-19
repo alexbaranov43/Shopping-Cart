@@ -1,4 +1,4 @@
-function bounceX() {
+function func() {
     //storing number of items, cart total, and item images as variables
     const numOfItems = $('.mini-cart-container').attr('data-quantity');
     const cartTotal = $('.order-value').html();
@@ -93,7 +93,7 @@ function bounceX() {
         }
     }
 };
-bounceX()
+func()
 
 
 
